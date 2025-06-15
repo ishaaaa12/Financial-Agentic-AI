@@ -3,7 +3,7 @@
 This project implements a multi-agent AI system using Phi to deliver real-time financial analysis and web search capabilities powered by Groq's ultra-fast LLaMA-3.3 70B models.
 
 <h2>💼 Features</h2>
-* 🔍 **`Web Search Agent:`** Uses DuckDuckGo to search for the latest news on companies and topics.
+* 🔍**`Web Search Agent:`** Uses DuckDuckGo to search for the latest news on companies and topics.
 
 📈 Finance Agent: Retrieves stock prices, analyst recommendations, financial fundamentals, and company news using yfinance.
 
