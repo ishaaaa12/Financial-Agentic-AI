@@ -15,6 +15,7 @@ This project implements a multi-agent AI system using Phi to deliver real-time f
 * 🧹 **Safe Search:** Includes a custom SafeDuckDuckGo wrapper to ensure clean and valid URLs in search results.
 
 <h2>🛠️ Tech Stack</h2>
+
 * Phi — Agent orchestration and tool integration
 
 * Groq API — Ultra-low-latency inference with LLaMA 3.3 70B
