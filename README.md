@@ -1,4 +1,5 @@
-🧠 ##Financial Agentic AI
+##🧠 Financial Agentic AI
+
 This project implements a multi-agent AI system using Phi to deliver real-time financial analysis and web search capabilities powered by Groq's ultra-fast LLaMA-3.3 70B models.
 
 💼 Features
