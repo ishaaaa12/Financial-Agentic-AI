@@ -68,7 +68,7 @@ PHI_API_KEY=your_phi_api_key
 4. **Run the agent:**
 
 ```bash
-python financial_agent.py
+python playground.py
 ```
 
 <h2>🧠 How to Use the Playground UI</h2>
@@ -79,7 +79,7 @@ To interact with your agent through the Phidata Playground interface:
 1. Run the script:
 
 ```bash
-python financial_agent.py
+python playground.py
 ```
 
 2. Copy the local URL shown (e.g., http://localhost:7777)
