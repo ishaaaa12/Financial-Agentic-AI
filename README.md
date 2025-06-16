@@ -2,17 +2,27 @@
 
 This project implements a multi-agent AI system using Phi to deliver real-time financial analysis and web search capabilities powered by Groq's ultra-fast LLaMA-3.3 70B models.
 
+This assistant can:
+
+🔍 Search the web and provide sources
+
+📊 Fetch financial insights like stock prices, analyst recommendations, fundamentals, and news
+
+💡 Summarize and present results in markdown with tables
+
+
+
 <h2>💼 Features</h2>
 
-* 🔍 **Web Search Agent:** Uses DuckDuckGo to search for the latest news on companies and topics.
+* **Multi-agent setup:** Separate agents for finance and web search
 
-* 📈 **Finance Agent:** Retrieves stock prices, analyst recommendations, financial fundamentals, and company news using yfinance.
+* **LLM-powered reasoning** using Groq models
 
-* 🤖 **Multi-Agent System:** A unified AI that coordinates between specialized agents to respond to complex financial queries.
+* **Live financial data** via Yahoo Finance
 
-* 🧩 **Tool Use & Source Inclusion:** Each agent is equipped with domain-specific tools and configured to always include sources and use tables for structured outputs.
+* **Web search** using DuckDuckGo
 
-* 🧹 **Safe Search:** Includes a custom SafeDuckDuckGo wrapper to ensure clean and valid URLs in search results.
+* **Phidata Playground** for a clean UI experience
 
 <h2>🛠️ Tech Stack</h2>
 
@@ -26,16 +36,6 @@ This project implements a multi-agent AI system using Phi to deliver real-time f
 
 * Python — Core implementation
 
-* .env — API key management (using dotenv)
-
-<h2>🚀 How It Works</h2>
-Agents are created with distinct roles:
-
-* web_search_agent: Answers web queries with DuckDuckGo and filters out malformed URLs.
-
-* finance_agent: Fetches financial data like analyst recommendations, prices, and fundamentals.
-
-* multi_ai_agent: A meta-agent that intelligently delegates the query to the appropriate sub-agent(s).
 
 <h2>🔑 Setup</h2>
 
@@ -70,3 +70,27 @@ PHI_API_KEY=your_phi_api_key
 ```bash
 python financial_agent.py
 ```
+
+<h2>🧠 How to Use the Playground UI</h2>
+⚠️ The app does not launch a UI by default.
+
+To interact with your agent through the Phidata Playground interface:
+
+1. Run the script:
+
+```bash
+python financial_agent.py
+```
+
+2. Copy the local URL shown (e.g., http://localhost:7777)
+
+3. Go to Phidata website
+
+4. Log in
+
+5. Click on the “Playground” section
+
+6. Paste your local URL in the Endpoint field
+
+Interact with your multi-agent system!
+
